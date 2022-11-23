@@ -57,6 +57,18 @@ a:visited {
     margin-bottom: 10px;
 }
 
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+
+    .info-text {
+        margin: 0;
+    }
+}
+
+
 .card {
     border-radius: 20px;
     padding: 15px 20px;
@@ -144,6 +156,18 @@ a:visited {
 
 .form-row .form-group:last-child {
     margin-right: 0;
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
 
 .form-group label {
